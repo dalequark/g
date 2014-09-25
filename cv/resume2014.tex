@@ -1,0 +1,227 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Template: Curriculum Vitae
+%
+% Source: http://www.howtotex.com/
+% Feel free to distribute this template, but please keep the
+% referal to HowToTeX.com.
+% Date: July 2011
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX: 
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+% If you're new to LaTeX, the wikibook is a great place to start:
+% http://en.wikibooks.org/wiki/LaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[paper=a4,fontsize=11pt]{scrartcl} % KOMA-article class
+							
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}     % Math packages
+\usepackage{graphicx}                    % Enable pdflatex
+\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
+\usepackage{geometry}
+	\textheight=700px                    % Saving trees ;-)
+\usepackage{url}
+
+\frenchspacing              % Better looking spacings after periods
+\pagestyle{empty}           % No pagenumbers/headers/footers
+
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{%			            % Change font of \section command
+	\usefont{OT1}{phv}{b}{n}%		% bch-b-n: CharterBT-Bold font
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}			% Box to align text
+\newcommand{\sepspace}{\vspace*{1em}}		% Vertical space macro
+
+\newcommand{\MyName}[1]{ % Name
+		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+		\center \par \normalsize \normalfont}
+		
+\newcommand{\MySlogan}[1]{ % Slogan (optional)
+		\large \usefont{OT1}{phv}{m}{n}\hfill \textit{#1}
+		\par \normalsize \normalfont}
+
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+\newcommand{\PersonalEntry}[2]{
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}		       % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value
+
+\newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}			   % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value	
+		
+\newcommand{\EducationEntry}[4]{
+		\noindent \textbf{#1} \hfill      % Study
+		\colorbox{Black}{%
+			\parbox{6em}{%
+			\hfill\color{White}#2}} \par  % Duration
+		\noindent \textit{#3} \par        % School
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+\newcommand{\WorkEntry}[4]{				  % Same as \EducationEntry
+		\noindent \textbf{#1} \hfill      % Jobname
+		\colorbox{Black}{\color{White}#2} \par  % Duration
+		\noindent \textit{#3} \par              % Company
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+%%% Begin Document
+%%% ------------------------------------------------------------
+\begin{document}
+% you can upload a photo and include it here...
+%\begin{wrapfigure}{l}{0.5\textwidth}
+%	\vspace*{-2em}
+%		\includegraphics[width=0.15\textwidth]{photo}
+%\end{wrapfigure}
+\begin{center}
+\MyName{Dale Markowitz}
+(973) 634-5122\\
+\url{damarkow@princeton.edu}
+\end{center}
+
+\sepspace
+
+
+
+%%% Education
+%%% ------------------------------------------------------------
+\NewPart{Education}{}
+
+\EducationEntry{Princeton University}{2011-2015}{AB in Computer Science}{
+	Departmental GPA: 3.74, Total GPA: 3.6\\
+	Relevant Coursework: Artificial Intelligence, Operating Systems, Graph Theory, Reasoning about Computation, Algorithms and Data Structures, HCI Technology, Circuit Design
+}
+\sepspace
+\EducationEntry{University College London}{Fall 2013}{Fall Semester Study Abroad}{
+	Relevant Coursework:
+	Distributed Systems and Security, Networked Systems
+}
+\sepspace
+
+
+%%% Work experience
+%%% ------------------------------------------------------------
+\NewPart{Relevant Experience}{}
+
+%%%\WorkEntry{Senior Thesis Project Name}{2014-present}{Senior Thesis with Jennifer Rexford, Ken Norman}{Job description goes here. To maintain a stylish look, try to fill this description with a few lines of text. Do the same for the other entries in this section.}
+%%%\sepspace
+
+\WorkEntry{A Brain-Computer Interface for Sustained Visual Attention}{2014-2015}{Senior Thesis with Kenneth Norman}{
+	 Using an wireless EEG headset, designed an system for online analysis of 
+}
+\sepspace
+
+\WorkEntry{BeagleCache}{Fall 2013, Summer 2014}{Fall/Summer Independent Work with Vivek Pai}{
+	In order to increase bandwidth in developing world countries, created a network accelerator platform for the Beaglebone Black, a credit-card-sized Linux computer.  Implemented HTTP caching as well as compressed HTTP data exchange between high and low bandwidth BeagleCache devices.
+}
+\sepspace
+
+\WorkEntry{SRON: A Software-Defined Overlay Network}{Spring 2014}{Spring Independent Work with Jennifer Rexford}{
+	Designed SRON, a dymanic SDN networking software written in Pyretic, in an attempt to allow Internet Service Providers better control
+	over the paths their data takes through interdomain boundaries by creating an virtual overlay network on top of the physical Internet backbone.
+}
+\sepspace
+
+\WorkEntry{Floored Inc}{Summer 2013}{Hardware Engineering Intern}{
+	Built a high-resolution 3D scanner for reconstructing/modeling interior spaces using a precision laser rangefinder and DSLR camera mounted atop a rotating platform.
+}
+\sepspace
+
+\WorkEntry{Entrepreneurs Roundtable Accelerator}{Summer 2012}{Design Intern}{Designed ERA infographic, brochures and marketing material.  }
+
+
+%%% Extracurriculars 
+%%% ------------------------------------------------------------
+\NewPart{Extracurricular Activities}{}
+
+\WorkEntry{Princeton Makers Collective}{2013-2015}{Programs Organizer}{
+	Organized programs and events for the Princeton hacking and making group on campus.  Brought in speakers from the hackspace NYC Resistor and the 3D printing company Shapeways to give presentations.  Organized and taught a class on 3D modeling with OpenScad and Inkscape.  Facilitated a collaboration between the Architecture Department and Makers Collective (access to supplies, organized beginners electronics classes).
+}
+\sepspace
+
+\WorkEntry{Princeton Women in Computer Science}{2014-2015}{Peer Mentor}{
+	Provided guidance and recommendations to underclassmen who are considering studying Computer Science.
+}
+\sepspace
+
+\WorkEntry{Orange Key Tours}{Summer 2014}{Tour Guide}{
+	Led tours of the Princeton campus, explaining the academic, extracirricular, and historic aspects of life as a student at Princeton.
+}
+\sepspace
+
+\WorkEntry{Keller Center Fellow}{2014-2015}{Fellowship Grant Recipient}{
+	With a grant from the Keller Center, an organization which promotes entrepreneurship on campus, I ran a workshop on creating USB devices with microcontrollers and novel sensors (foot pedals, light sensors, etc).
+}
+\sepspace
+
+\WorkEntry{Institute of Making at UCL}{Fall 2013}{Active Member}{
+	Member of University College London's MakerSpace, active use of 3D printers, laser cutter, soldering irons, etc.
+}
+\sepspace
+
+\WorkEntry{Hack Classes Instructor}{2013}{Princeton Entrepreneurship Club}{
+	Taught WordPress development class, helped organize iOS and Web development classes.
+}
+\sepspace
+
+%%% Skills
+%%% ------------------------------------------------------------
+\NewPart{Publications/Presentations}{}
+
+\WorkEntry{BeagleCache: A Low-Cost, eMMC-Based Caching Proxy for the Developing World}{2014}{Carnegie Mellon Undergraduate Conference in Information Systems}{
+	Publication and presentation won ``Most Promising Research''.
+}
+\sepspace
+
+\WorkEntry{IoT Device Presentation}{2013}{Fordham Eighth Law and Information Society symposium}{
+	Created and presented an Internet of Things device at the Princeton/Fordham conference, ``What Are Your Shoes Saying To Your Car?  Assessing the Internet of Things.''  Designed a wireless, color-changing bedside lamp that, in conjunction with an iOS To-Do application, indicated how much of a To-Do List was completed.
+}
+\sepspace
+
+
+%%% Skills
+%%% ------------------------------------------------------------
+\NewPart{Skills}
+\SkillsEntry{Software}{Linux (Arch, Ubuntu, Debian, Fedora)}
+\SkillsEntry{}{Python}
+\SkillsEntry{}{C}
+\SkillsEntry{}{Javascript/Node}
+\SkillsEntry{}{Java}
+\sepspace
+
+
+\SkillsEntry{Electronics}{Eagle (Circuit Design)}
+\SkillsEntry{}{Arduino}
+\SkillsEntry{}{Soldering}
+\sepspace
+
+\SkillsEntry{Design}{OpenScad (Parametric 3D modeling)}
+\SkillsEntry{}{Photoshop}
+\SkillsEntry{}{Inkscape}
+
+
+\end{document}

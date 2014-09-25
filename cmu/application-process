@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<!-- Sorry no IE7 support! -->
+
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link href="/sites/all/themes/hcii/_assets/images/apple-touch-icon-152x152-precomposed.png" sizes="152x152" rel="apple-touch-icon-precomposed" />
+<meta content="ie=edge, chrome=1" http-equiv="x-ua-compatible" />
+<meta http-equiv="ImageToolbar" content="false" />
+<meta content="HCII" name="apple-mobile-web-app-title" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="yes" name="apple-touch-fullscreen" />
+<link href="/sites/all/themes/hcii/_assets/images/apple-touch-icon-144x144-precomposed.png" sizes="144x144" rel="apple-touch-icon-precomposed" />
+<link href="/sites/all/themes/hcii/_assets/images/apple-touch-icon-114x114-precomposed.png" sizes="114x114" rel="apple-touch-icon-precomposed" />
+<link rel="shortlink" href="/node/5727" />
+<link rel="canonical" href="/academics/phd-hci/application/application-process" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="shortcut icon" href="http://www.hcii.cmu.edu/sites/www.hcii.cmu.edu/files/favicon_1.ico" type="image/vnd.microsoft.icon" />
+<link href="/sites/all/themes/hcii/_assets/images/apple-touch-icon-precomposed.png" rel="apple-touch-icon-precomposed" />
+<link href="/sites/all/themes/hcii/_assets/images/apple-touch-icon-76x76-precomposed.png" sizes="76x76" rel="apple-touch-icon-precomposed" />
+<link href="/sites/all/themes/hcii/_assets/images/apple-touch-icon-72x72-precomposed.png" sizes="72x72" rel="apple-touch-icon-precomposed" />
+<link href="/sites/all/themes/hcii/_assets/images/apple-touch-icon-120x120-precomposed.png" sizes="120x120" rel="apple-touch-icon-precomposed" />
+  <title>PhD Application Process | Human-Computer Interaction Institute</title>
+  <link rel="stylesheet" href="http://www.hcii.cmu.edu/sites/www.hcii.cmu.edu/files/css/css_791YXBaKKm1ORM_7huSKEsIV9tSWq6wmRkERhuXpN6w.css" media="all" />
+<link rel="stylesheet" href="http://www.hcii.cmu.edu/sites/www.hcii.cmu.edu/files/css/css__NSYmKD7hCSLE1xa-7GDb_sD0rJrBKEA37ZYtpl58mo.css" media="all" />
+<link rel="stylesheet" href="http://www.hcii.cmu.edu/sites/www.hcii.cmu.edu/files/css/css_5nzDvbnmlxDgrXRGOLKa2k3m5OhWBl3lo71O9Jlzd5A.css" media="all" />
+<link rel="stylesheet" href="http://www.hcii.cmu.edu/sites/www.hcii.cmu.edu/files/css/css_YsqemEb0z6oNblY5ogzm3r_TqvrTQ_sMf_DTZ_JfaYc.css" media="all" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+window.jQuery || document.write("<script src='/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js'>\x3C/script>")
+</script>
+<script src="http://www.hcii.cmu.edu/sites/www.hcii.cmu.edu/files/js/js_IkgOrrVZK1UTp2HktvFi5vo1g7b25Muyr5GoySikuic.js"></script>
+<script src="http://www.hcii.cmu.edu/sites/www.hcii.cmu.edu/files/js/js_gBoSdTsbO5TTeOmqEi5o8yZugwRoJUJi0t2MCEMdSqk.js"></script>
+<script src="http://www.hcii.cmu.edu/sites/www.hcii.cmu.edu/files/js/js_wbNcNdElbPpOr1fgKWnUHDbx7ELJyjxgi0vnqj-u7qA.js"></script>
+<script>
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-359322-5", "auto");ga("send", "pageview");
+</script>
+<script src="http://www.hcii.cmu.edu/sites/www.hcii.cmu.edu/files/js/js_KlbcSDfGbvdUyClgnrvvjKuvSjANpqgTk1NJW_7iIS4.js"></script>
+<script src="http://www.hcii.cmu.edu/sites/www.hcii.cmu.edu/files/js/js_CGJfPL6ik5X0wDtgMw4oz8r9WHU86XNlZKm2pOTDYXo.js"></script>
+<script>
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"hcii","theme_token":"XBAgyyPjWqU15Uhmty4-dVrD5rsj2f4zn1RTSuZG8Ss","js":{"https:\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.10.2\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/spamspan\/spamspan.js":1,"sites\/all\/modules\/linkit\/editors\/ckeditor\/linkitDialog.js":1,"sites\/all\/libraries\/imagesloaded\/imagesloaded.pkgd.min.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/modules\/field_group\/field_group.js":1,"sites\/all\/libraries\/masonry\/masonry.pkgd.min.js":1,"sites\/all\/modules\/masonry\/masonry.js":1,"sites\/all\/themes\/hcii\/_assets\/js\/libs\/html5shiv.js":1,"sites\/all\/themes\/hcii\/_assets\/js\/libs\/jquery.easing.1.3.js":1,"sites\/all\/themes\/hcii\/_assets\/js\/libs\/jquery.fitvids.js":1,"sites\/all\/themes\/hcii\/_assets\/js\/libs\/jquery.equalheightcolumns.js":1,"sites\/all\/themes\/hcii\/_assets\/js\/libs\/waypoints.js":1,"sites\/all\/themes\/hcii\/_assets\/js\/libs\/waypoints-sticky.js":1,"sites\/all\/themes\/hcii\/_assets\/js\/libs\/IsMobile.js":1,"sites\/all\/themes\/hcii\/_assets\/js\/hcii.app.min.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/hcii_ac_filter\/select2\/select2.css":1,"sites\/all\/modules\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/biblio\/biblio.css":1,"sites\/all\/modules\/forward\/forward.css":1,"sites\/all\/modules\/field_group\/field_group.css":1,"sites\/all\/themes\/hcii\/ds_layouts\/masonry_full\/masonry_full.css":1,"sites\/all\/themes\/hcii\/_assets\/css\/font-awesome.min.css":1,"sites\/all\/themes\/hcii\/_assets\/css\/hcii.app.css":1}},"masonry":{".view-field-collection-layout.view-display-id-default .view-content":{"item_selector":".masonry-item","column_width":0,"column_width_units":"%","gutter_width":0,"resizable":true,"animated":false,"animation_duration":500,"fit_width":false,"rtl":false,"images_first":true},".field-name-field-subtitle .field-items":{"item_selector":".field-item","column_width":0,"column_width_units":"px","gutter_width":0,"resizable":true,"animated":false,"animation_duration":500,"fit_width":false,"rtl":false,"images_first":true}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"},"field_group":{"div":"full"}});
+</script>
+  <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-5727 node-type-page section-academics" >
+  <h1 class="element-invisible site-name">PhD Application Process | Human-Computer Interaction Institute</h1>
+  <div class="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <section id="ribbon">
+    <h2 class="accessibility">Site directory</h2>
+    <div class="ribbon--wrapper">
+        	<div class="site-logo">
+    	<a href="/" rel="home">
+    	     	 	<img src="http://www.hcii.cmu.edu/sites/all/themes/hcii/logo.svg" alt="Human-Computer Interaction Institute logo" />
+    	 </a>
+    	</div>
+            	<nav class="primary-nav">    <div class="block block-menu-block contextual-links-region block-menu-block-1">
+
+        <h2 class="block-title">Main menu</h2>
+    
+      <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first expanded active-trail menu-mlid-4006"><a href="/academics" class="active-trail">Academics</a><ul class="menu"><li class="first expanded active-trail menu-mlid-4007"><a href="/academics/phd-hci" class="active-trail">PhD in HCI</a><ul class="menu"><li class="first leaf menu-mlid-4008"><a href="/academics/phd-hci/requirements">Requirements</a></li>
+<li class="collapsed menu-mlid-4010"><a href="/academics/phd-hci/emphasis-areas">Emphasis Areas</a></li>
+<li class="expanded active-trail menu-mlid-4009"><a href="/academics/phd-hci/application" class="active-trail">Application</a><ul class="menu"><li class="first leaf active-trail active menu-mlid-4533"><a href="/academics/phd-hci/application/application-process" class="active-trail active">Application Process</a></li>
+<li class="last leaf menu-mlid-4484"><a href="/academics/phd-hci/application/application-deadline">Application Deadline</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-4485"><a href="/academics/phd-hci/phd-faq">PhD FAQ</a></li>
+</ul></li>
+<li class="expanded menu-mlid-4131"><a href="/academics/mhci">MHCI</a><ul class="menu"><li class="first expanded menu-mlid-4132"><a href="/academics/mhci/core-curriculum">Core Curriculum</a><ul class="menu"><li class="first leaf menu-mlid-4531"><a href="/academics/mhci/core-curriculum/electives">Electives</a></li>
+<li class="leaf menu-mlid-4532"><a href="/academics/mhci/core-curriculum/place-out-0">Place Out</a></li>
+<li class="last leaf menu-mlid-4135"><a href="/academics/mhci/core-curriculum/sample-plans">Sample Plans</a></li>
+</ul></li>
+<li class="leaf menu-mlid-4138"><a href="/academics/mhci/madeira-program">Madeira Program</a></li>
+<li class="expanded menu-mlid-4137"><a href="/academics/mhci/capstone-project">Capstone Project</a><ul class="menu"><li class="first last leaf menu-mlid-6592"><a href="/academics/ms-hci/capstone-project/projects">Projects</a></li>
+</ul></li>
+<li class="last expanded menu-mlid-4140"><a href="/academics/mhci/application">Application</a><ul class="menu"><li class="first leaf menu-mlid-4542"><a href="/academics/mhci/application/application-process">Application Process</a></li>
+<li class="leaf menu-mlid-4584"><a href="/academics/mhci/application/application-deadline">Application Deadline</a></li>
+<li class="last leaf menu-mlid-37181"><a href="/node/5730">MHCI Application FAQs</a></li>
+</ul></li>
+</ul></li>
+<li class="expanded menu-mlid-4589"><a href="/masters-educational-technology-and-applied-learning-science-program-overview%20">Masters in Learning Science (METALS)</a><ul class="menu"><li class="first leaf menu-mlid-4590"><a href="/masters-educational-technology-and-applied-learning-science-program-curriculum">Curriculum</a></li>
+<li class="leaf menu-mlid-6841"><a href="/masters-educational-technology-and-applied-learning-science-program-capstone">METALS Capstone Project</a></li>
+<li class="leaf menu-mlid-4594"><a href="/masters-educational-technology-and-applied-learning-science-program-admissions">Applying</a></li>
+<li class="leaf menu-mlid-6821"><a href="/masters-educational-technology-and-applied-learning-science-program-faq">Applicant FAQ</a></li>
+<li class="leaf menu-mlid-18151"><a href="/masters-educational-technology-and-applied-learning-science-program-new-student">Information for Incoming METALS Students</a></li>
+<li class="last leaf menu-mlid-37131"><a href="/masters-educational-technology-and-applied-learning-science-program-overview%20/current-students">Current Students</a></li>
+</ul></li>
+<li class="expanded menu-mlid-4141"><a href="/academics/hci-undergraduate">HCI Undergraduate</a><ul class="menu"><li class="first expanded menu-mlid-4142"><a href="/academics/hci-undergraduate/major">Major</a><ul class="menu"><li class="first leaf menu-mlid-10111"><a href="/academics/hci-undergraduate/major/applying">Applying</a></li>
+<li class="leaf menu-mlid-4596"><a href="/academics/hci-undergraduate/major/electives">Electives</a></li>
+<li class="leaf menu-mlid-4597"><a href="/academics/hci-undergraduate/major/sample-plans">Sample Plans</a></li>
+<li class="leaf menu-mlid-6861"><a href="/academics/hci-undergraduate/major/admissions-information">Admissions Information</a></li>
+<li class="leaf menu-mlid-4598"><a href="/academics/hci-undergraduate/major/scheduling">Scheduling</a></li>
+<li class="last leaf menu-mlid-4146"><a href="/academics/hci-undergraduate/major/advisory-committee">Advisory Committee</a></li>
+</ul></li>
+<li class="leaf menu-mlid-4144"><a href="/academics/hci-undergraduate/independent-study">Independent Study</a></li>
+<li class="leaf menu-mlid-4145"><a href="/academics/hci-undergraduate/minor">Minor</a></li>
+<li class="leaf menu-mlid-37111"><a href="/academics/hci-undergraduate/accelerated-masters">Accelerated Master&#039;s</a></li>
+<li class="leaf menu-mlid-10101"><a href="/academics/hci-undergraduate/pre-approved-undergraduate-electives">Pre-Approved Undergraduate Electives</a></li>
+<li class="last leaf menu-mlid-37321"><a href="/academics/hci-undergraduate/ideate-your-hcii-degree">IDeATe Your HCII Degree</a></li>
+</ul></li>
+<li class="leaf menu-mlid-4149"><a href="/academics/courses">Courses</a></li>
+<li class="last leaf menu-mlid-4148"><a href="/academics/plagiarism-policy">Plagiarism Policy</a></li>
+</ul></li>
+<li class="leaf menu-mlid-3504"><a href="/facilities">Facilities</a></li>
+<li class="expanded menu-mlid-4453"><a href="/research">Research</a><ul class="menu"><li class="first expanded menu-mlid-3961"><a href="/research/projects">Projects</a><ul class="menu"><li class="first last leaf menu-mlid-6131"><a href="/research/projects/archive">Archive</a></li>
+</ul></li>
+<li class="last leaf menu-mlid-5105"><a href="/research/doing-research-us">Doing Research With Us</a></li>
+</ul></li>
+<li class="expanded menu-mlid-5106"><a href="/people">People</a><ul class="menu"><li class="first leaf menu-mlid-6117"><a href="/people/faculty">Faculty</a></li>
+<li class="leaf menu-mlid-6851"><a href="/people/affiliated-faculty">Affiliated Faculty</a></li>
+<li class="leaf menu-mlid-7951"><a href="/people/special-faculty-and-postdocs">Special Faculty and Postdocs</a></li>
+<li class="leaf menu-mlid-32461"><a href="/people/adjunct-faculty">Adjunct Faculty</a></li>
+<li class="leaf menu-mlid-6120"><a href="/people/phd-students">PhD Students</a></li>
+<li class="leaf menu-mlid-6124"><a href="/people/master%27s-students">Master&#039;s Students</a></li>
+<li class="leaf menu-mlid-6121"><a href="/people/hci-undergraduates">HCI Undergraduates</a></li>
+<li class="leaf menu-mlid-6126"><a href="/people/alumni">Alumni</a></li>
+<li class="leaf menu-mlid-6123"><a href="/people/administrative-staff">Administrative Staff</a></li>
+<li class="last leaf menu-mlid-6118"><a href="/people/technical-staff">Technical Staff</a></li>
+</ul></li>
+<li class="expanded menu-mlid-2204"><a href="/news">News &amp; Events</a><ul class="menu"><li class="first leaf menu-mlid-4524"><a href="/news/calendar">Calendar</a></li>
+<li class="expanded menu-mlid-37001"><a href="/news/seminars">Seminars</a><ul class="menu"><li class="first last leaf menu-mlid-37011"><a href="/news/seminars/past">Past Seminars</a></li>
+</ul></li>
+<li class="leaf menu-mlid-4480"><a href="/news/media" title="In the Media">In the Media</a></li>
+<li class="last leaf menu-mlid-4481"><a href="/news/news" title="News">News</a></li>
+</ul></li>
+<li class="leaf menu-mlid-5108"><a href="/giving">Giving</a></li>
+<li class="leaf menu-mlid-5109"><a href="/careers">Careers</a></li>
+<li class="leaf menu-mlid-12681"><a href="/about">About</a></li>
+<li class="last expanded menu-mlid-37091"><a href="/hcii20">HCII 20th Anniversary</a><ul class="menu"><li class="first last leaf menu-mlid-37101"><a href="/hcii20/corporate-sponsorship">Corporate Sponsorship</a></li>
+</ul></li>
+</ul></div>
+  
+</div></nav>
+            	<div class="ribbon--content">    <div class="block block-search contextual-links-region block-search-form">
+
+      
+      <form onsubmit="if(this.search_block_form.value==&#039;Search&#039;){ alert(&#039;Please enter a search&#039;); return false; }" action="/academics/phd-hci/application/application-process" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <input type="checkbox" id="search_block_toggle"/>
+  <label for="search_block_toggle" class="icon-search"><span class="tooltip" data-tooltip="Search"></span></label>
+  <div class="search_block">
+  	<div class="form-item form-type-searchfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." placeholder="Search" type="search" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" class="form-text form-search" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="GO!" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-xDLIrbWHAX_L869QrQN8xCb3ZnQy_vwMzI5_3UMzQCw" />
+<input type="hidden" name="form_id" value="search_block_form" />
+  </div>
+</div>
+</div></form>  
+</div><form action="/academics/phd-hci/application/application-process?destination=node/5727" method="post" id="user-login-form" accept-charset="UTF-8"><input type="checkbox" id="login_block_toggle"/>
+  <label for="login_block_toggle" class="icon-signin"><span class="tooltip" data-tooltip="Login"></span></label><div class="login_block"><div class="form-item form-type-textfield form-item-name">
+  <label class="element-invisible" for="edit-name--2">Username or e-mail <span class="form-required" title="This field is required.">*</span></label>
+ <input placeholder="Username" type="text" id="edit-name--2" name="name" value="" size="15" maxlength="60" class="form-text required" />
+</div>
+<div class="form-item form-type-password form-item-pass">
+  <label class="element-invisible" for="edit-pass--2">Password <span class="form-required" title="This field is required.">*</span></label>
+ <input placeholder="Password" type="password" id="edit-pass--2" name="pass" size="15" maxlength="128" class="form-text required" />
+</div>
+<input type="hidden" name="form_build_id" value="form-Ypuh5f--y966PX1xdwWLETcytXeESTBUKTctFojXhWM" />
+<input type="hidden" name="form_id" value="user_login_block" />
+<div class="form-actions form-wrapper" id="edit-actions--3"><input type="submit" id="edit-submit--3" name="op" value="Log in" class="form-submit" /></div><div class="item-list"><ul><li class="first last"><a href="/user/password" title="Request new password via e-mail.">Request new password</a></li>
+</ul></div></div></form>  <div class="block block-block ribbon--message contextual-links-region block-block-54">
+
+      
+      <p><span>HCII, Carnegie Mellon University | 5000 Forbes Ave | Pittsburgh, PA 15213</span></p>
+<p><em><a href="/">HCII</a> is part of the <a href="http://www.cs.cmu.edu">School of Computer Science</a> at <a href="http://www.cmu.edu/">Carnegie Mellon University</a></em></p>  
+</div></div>
+    </section>
+	
+<div class="page-wrapper no-background" id="page-wrapper">
+	<header id="page-header">
+		<div class="section--wrapper">
+			<a id="top"></a> 
+							        <div class="site-logo">
+			        <a href="/" rel="home">
+			        			          <img src="http://www.hcii.cmu.edu/sites/all/themes/hcii/logo.svg" alt="Human-Computer Interaction Institute logo" />
+			       </a>
+			        </div>
+			      			<!-- !Header and Nav -->
+			
+			  <div class="header-sections">
+			    			    			  </div>
+		</div>
+		</header> <!-- /#page-header -->
+		   
+	<div id="main-content">
+	  <div class="section--wrapper">
+		  		  		  
+		  		  
+		  <!--#main -->
+		  <article class="main-content ">
+		    			    <nav class="breadcrumb"><h2 class="element-invisible">You are here</h2><ul class="breadcrumbs"><li class="breadcrumb-0 first"><a href="/academics"><span>Academics</span></a></li><li class="breadcrumb-1 middle"><a href="/academics/phd-hci"><span>PhD in HCI</span></a></li><li class="breadcrumb-2 last"><a href="/academics/phd-hci/application"><span>Application</span></a></li><li class="current"><span>PhD Application Process</span></li></ul></nav>
+			 		
+		    		
+		      		        		        		      		
+		      		
+		      
+      
+      <div class="node node-page view-mode-full  clearfix">
+
+    
+      <div class="tile full primary">
+      <div class="tile--wrapper">
+      	<div class="tile--inner_wrapper">
+		  	<h1 class="title">PhD Application Process</h1><p class="gamma">To apply for admission, read the following instructions carefully, make certain that you have met all requirements, and then complete the on-line application.</p>      	</div>
+      </div>
+    </div>
+  
+      <div class="layout--masonry layout--masonry-render">
+      <div class="grid-sizer tile"></div>
+      <div class="field field-name-field-page-block"><div class="view view-field-collection-layout view-id-field_collection_layout view-display-id-default view-dom-id-cc33074e26f9cd1b69a296229ccc73ef contextual-links-region">
+        
+  
+  
+      <div class="view-contents js-masonry"
+  data-masonry-options='{ "columnWidth": ".grid-sizer" }' >
+      <div class="grid-sizer tile"></div>
+      
+  <div class="masonry-item views-row views-row-1 views-row-odd views-row-first tile double linked">
+    
+      <div class="tile--wrapper">
+  
+    
+      <p>Prepare a <em>Statement of Purpose</em> providing a concise one- or two-page statement in the following format:</p>
+<p>Part I. Briefly state your primary interest of study within HCI. Be as specific as possible in describing your interests. Existing research areas and projects in the HCI Institute are listed on the HCII <a href="http://www.hcii.cmu.edu/research">research summary page</a>. Other HCI research interests are also welcome.</p>
+<p>Part II. State your objective in pursuing a PhD and why you are applying to Carnegie Mellon.</p>
+<p>Part III. Describe your background in fields related to your objective. List here any relevant industrial or commercial experience. Please note that we welcome students from all backgrounds with a variety of strengths — strong technical skills, strong social science skills, strong design skills, and combinations of the above.</p>
+<p>Part IV. Include any additional information you wish to supply to the admissions committee, including any HCII faculty you might have been in contact with about coming to CMU as a doctoral student.</p>
+<p>Attach your current resume, including a summary of research experience and a list of publications. Attach copies of any publications (in English only) that you may have.</p>
+<p>If appropriate to your background, you may include a link to your portfolio.</p>
+<p>Submit transcripts from all undergraduate and graduate institutions attended, even if no degree was granted. You must upload your transcript in either PDF, JPG, or GIF format. Any other format will not be accepted. Mail one copy of each official transcript (in an official sealed envelope) to</p>
+<p>Admissions Coordinator<br />
+School of Computer Science<br />
+Carnegie Mellon University<br />
+5000 Forbes Avenue<br />
+Pittsburgh, PA 15213-3891 USA</p>
+<p>A non-refundable application fee is required. You may pay the fee by credit card. The credit card payment system is part of the online application, and instructions are given when you submit your application. If you do not want to pay by credit card with the online application, you may pay by check or money order drawn on a US bank, made payable to Carnegie Mellon University.</p>
+<p>Submit three letters of recommendation online. Recommenders should know you relatively well and be able to evaluate the quality of previous work. At least two should be from faculty or recent employers. Letters are submitted electronically, using the online application.</p>
+<p>Take the Graduate Record Examination (GRE) and have scores sent directly to Carnegie Mellon University (Institutional Code 2074, Departmental Code 0402). All applicants must take the general tests. Applicants are not required to submit a GRE advanced subject exam score. Please refer to the GRE testing schedule to determine available test dates. No application will be considered complete until we have received these scores. GRE scores will not be accepted if more than five years old.</p>
+<p>Take the Test of English as a Foreign Language (TOEFL) and have your score sent directly to Carnegie Mellon University (Institutional Code 4256, Departmental Code 78). All students whose native language is not English must either take this examination, or have earned an undergraduate degree from a US educational institution.</p>
+<p>It is your responsibility to make certain that your application, supporting documents and letters of recommendation reach the Admissions Committee by the stated deadlines. You may check your submitted online application to make certain that it is complete.</p>
+<h3>Application Fee</h3>
+<p>Application to the HCI PhD program must be accompanied by a non-refundable application fee.</p>
+<h3>Tuition and Financial Aid</h3>
+<p>It is anticipated that students accepted into the HCI PhD program will be awarded a graduate fellowship for the academic year covering full tuition and a living allowance. These fellowships are normally renewable for the duration of the program, so long as the student maintains good standing. (There is no separate financial aid form to be completed.) Students are encouraged to apply for support from outside Carnegie Mellon (fellowships, foreign government grants, etc.). As an incentive to seek funding from other sources, a supplement is often provided to the stipend of any student who obtains outside support.</p>
+<h3>Final Checklist</h3>
+<p>Remember that the application deadline is December 15. Have you enclosed these items?</p>
+<ul><li>Application Fee: If submitted by December 3, $75 US (add $50 US for each application to each additional SCS program). If submitted between December 3 and December 15, $125 US. (Add $75 for each application to each additional SCS program.)</li>
+<li>Publications</li>
+<li>Portfolio (optional)</li>
+<li>Resume</li>
+<li>Transcripts from all schools attended</li>
+</ul><p>Have you requested that these items be mailed directly?</p>
+<ul><li>Graduate Record Examination Scores - general tests</li>
+<li>Test of English as a Foreign Language (TOEFL) Scores - if required</li>
+</ul>
+      </div>
+  
+  </div>
+  <div class="masonry-item views-row views-row-2 views-row-even tile default linked">
+    
+      <div class="tile--wrapper">
+  
+    
+      <div class="block block-block block--highlighted contextual-links-region block-block-64--2">
+
+        <h2 class="block-title">Application Deadline</h2>
+    
+      <p>December 15, 2014</p>
+
+<p><a class="button">Applications Open Sept. 15</a></p>
+  
+</div>
+      </div>
+  
+  </div>
+  <div class="masonry-item views-row views-row-3 views-row-odd views-row-last tile default linked">
+    
+      <div class="tile--wrapper">
+  
+    
+      <div class="block block-block contextual-links-region block-block-68--2">
+
+        <h2 class="block-title">PhD Program Information</h2>
+    
+      <p>PhD in Human-Computer Interaction<br />
+Carnegie Mellon University<br />
+5000 Forbes Avenue<br />
+Pittsburgh, PA 15213-3891</p>
+
+<div class="info_group">
+<ul><li><span class="spamspan"><span class="u">hciiphd</span> [at] <span class="d">cs [dot] cmu [dot] edu</span></span></li>
+	<li><a class="icon-phone-sign" href="tel:412-268-2564">412-268-2564</a></li>
+	<li><a class="icon-print">412-268-1266</a></li>
+</ul></div>
+  
+</div>
+      </div>
+  
+  </div>
+
+    </div>
+  
+  
+  
+  
+  
+  
+</div></div>    </div>
+    
+</div>
+
+  
+		  </article><!--/#main -->
+		
+		
+		  		
+		  	  </div>
+	</div> <!--/#main-content -->
+		        
+		<footer id="page-footer">
+		<div class="section--wrapper">
+		    		      <div class="footer-first">
+		            <div class="block block-views contextual-links-region block-views-calendar-block-3">
+
+        <h2 class="block-title">Upcoming Events</h2>
+    
+      <div class="view view-calendar view-id-calendar view-display-id-block_3 calendar-agenda calendar-agenda--upcoming view-dom-id-344cd6535b030b2dd4be8abd3fadf2fa">
+        
+  
+  
+      <div class="view-content">
+        <ul class="agenda-list">
+    <li class="agenda-item first odd">
+      
+      <div class="event-title">
+  
+    
+      <a href="/news/event/2014/07/mini-1-course-audit-grade-option-deadline">Mini-1 Course Audit Grade Option Deadline </a>
+      </div>
+  
+
+      <div class="date">
+  
+    
+      <span class="date-display-single">Aug 29 2014 (All day)</span>
+      </div>
+  
+    </li>
+      <li class="agenda-item even">
+      
+      <div class="event-title">
+  
+    
+      <a href="/news/event/2014/07/mini-1-course-add-deadline">Mini-1 Course Add Deadline </a>
+      </div>
+  
+
+      <div class="date">
+  
+    
+      <span class="date-display-single">Aug 29 2014 (All day)</span>
+      </div>
+  
+    </li>
+      <li class="agenda-item last odd">
+      
+      <div class="event-title">
+  
+    
+      <a href="/news/event/2014/07/mini-1-course-drop-deadline-receive-tuition-adjustment">Mini-1 Course Drop Deadline to Receive Tuition Adjustment </a>
+      </div>
+  
+
+      <div class="date">
+  
+    
+      <span class="date-display-single">Aug 29 2014 (All day)</span>
+      </div>
+  
+    </li>
+    </ul>
+    </div>
+  
+  
+  
+      
+<div class="more-link">
+  <a href="/news/calendar/month">
+    Full calendar  </a>
+</div>
+  
+  
+  
+</div>  
+</div>		      </div>
+		    		    		      <div class="footer-second" >
+		            <div class="block block-block contextual-links-region block-block-57">
+
+        <h2 class="block-title">Follow us</h2>
+    
+      <a href="https://www.facebook.com/pages/CMU-Human-Computer-Interaction-Institute/133308183441602" class="social-share-facebook" title="Facebook" target="_blank">Facebook</a>
+<a href="https://twitter.com/cmuhcii" title="Twitter" class="social-share-twitter" target="_blank">Twitter</a>
+<a href="#"  title="RSS" class="social-share-rss" target="_blank">Subscribe</a>  
+</div>		      </div>
+		    		     		      <div class="footer-third" >
+		          <div class="social-share clearfix">  <div class="block block-social-share contextual-links-region block-social-share-social-share">
+
+        <h2 class="block-title">Share this</h2>
+    
+      <a href="http://facebook.com/sharer.php?u=http%3A%2F%2Fwww.hcii.cmu.edu%2Facademics%2Fphd-hci%2Fapplication%2Fapplication-process&amp;t=PhD%20Application%20Process" class="social-share-facebook" title="Facebook" target="_blank">Facebook</a><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.hcii.cmu.edu%2Facademics%2Fphd-hci%2Fapplication%2Fapplication-process" class="social-share-googleplus" title="Google Plus" target="_blank">Google Plus</a><a href="/" class="social-share-" title="" target="_blank"></a><a href="http://twitter.com/intent/tweet?url=http%3A%2F%2Fwww.hcii.cmu.edu%2Facademics%2Fphd-hci%2Fapplication%2Fapplication-process&amp;text=PhD%20Application%20Process" class="social-share-twitter" title="Twitter" target="_blank">Twitter</a>  
+</div></div>  <div class="block block-forward contextual-links-region block-forward-form">
+
+      
+      <a href="/forward?path=academics/phd-hci/application/application-process" title="Forward this page to a friend" class="forward-page">Email this page</a>  
+</div>		      </div>
+		    		    		      <div class="footer-last">
+		            <div class="block block-block contextual-links-region block-block-58">
+
+        <h2 class="block-title">Connect with us</h2>
+    
+      <a href="mailto:hciiwebmaster@cs.cmu.edu" class="forward-page" title="Email us">Email</a>  
+</div>		      </div>
+		    		    		</div>
+	</footer>
+	   
+   	
+   
+</div> <!-- /#page-wrapper -->     <!-- JavaScript at the bottom for fast page loading -->
+  
+  	  <script type="text/javascript" src="//use.typekit.net/xij5vuw.js"></script>
+	  <script type="text/javascript">
+	  // trigger masonry when fonts have loaded
+	  try{Typekit.load({
+			  active: triggerMasonry,
+			  inactive: triggerMasonry
+			});}catch(e){}
+	</script>
+   
+</body>
+</html>
