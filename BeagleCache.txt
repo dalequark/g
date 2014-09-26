@@ -1,0 +1,64 @@
+BeagleBone Black
+
+Internet access in developing world countries is expensive in both relative
+and absolute terms;  on the one hand, what we might typically 
+consider low-performance computers can be expensive and valuable at universities
+in developing world countries.  At the same time, the methods by which Internet
+access is provided to such countries--generally via satellite links--are low-bandwidth
+and expensive in absolute terms, a consequence of the fact that traditional network
+links may be impractical to install and maintain in developing-world countries.  
+One solution to improving the lag experienced in these regions is to deploy a network
+of HTTP caching proxies--computers that intercept users' web traffic and cache content,
+so that future users can load web data from local caching proxies rather than over slow
+connections across the Internet.  While a plethora of caching proxy software has 
+been written for deployment at large companies with high-end hardware, few have
+investigated how these Internet acceleration techniques might be adapted for 
+deployment in the developing world.  In fact, one of the largest difficulties in 
+developing such software is that universities in developing countries may not be
+able to devote an entire compute--a valuable resource--solely to the purpose of 
+web caching, and furthermore, it can be difficult as a researcher to install 
+such software when the deployment site is overseas. 
+
+Inspired by the recent rise of inexpensive, self-contained,
+Linux computers (the Raspberry Pi, Cubieboard, BeagleBone Black etc), Professor
+Vivek Pai and I decided to create a "plug-and-play" web accelerator on
+a BeagleBone Black (BBB).  This $45.00, credit-card-sized computer isn't as powerful as
+today's typical PC, but with 8GB of flash memory and a 1GHz processor, was
+the BeagleBone Black powerful enough to be an effective web accelerator?  After
+testing the BBB's bandwidth, subject to disk I/O latency and clock speed, I
+determined that the device was a suitable platform for our plug-and-play solution.
+
+The challenge then became building a software stack that was suitable for 
+this stripped-down device.  Because flash memory can undergo only a limited number
+of writes, one of concern was to choose caching software that would preserve
+the BBB's flash memory for as long as possible.  To that end, I chose HashCache,
+a caching software that uses a log-structured filesystem to preseve memory,
+and that was designed for use on commodity hardware.  I also wrote software
+to run on top of Hashcache that made caching even more effective. Inspired by
+the Internet Accelerator platform Wanax, my program exploited a technique 
+known as "Bandwidth Shifting."  In bandwidth shifting, a network of caching 
+proxies in low-bandwidth regions are pared with a caching proxy in a 
+high-bandwidth region.  When a computer in the low-bandwidth region makes
+a request for data, a caching proxy in this region forwards the request
+to the paired caching proxy in the high bandwidth region.  This second
+cache fetches the requested page over its speedy Internet connection,
+breaks the page into content-descriminated chunks, and maps the content
+chunks into SHA-1 hashes.  Instead of sending all of the fetched data
+back to the requester in its full form--a costly operation over a 
+low-bandwidth connection--the caching proxy sends only the SHA-1 hashes
+of the data, so that caches on the low-bandwidth end of the connection
+can reconstruct the full requested document using only these
+hashes.  The result is that users in low-bandwidth regions are able to
+fetch entirely up-to-date web content without having to download the
+entire content of the data across slow Internet links.  
+
+Using this software, we will be able to deploy a network of cheap but
+powerful BeagleCache nodes in developing world countries that are able
+to give Internet users faster access to data by sharing content with 
+each other as well as with nodes deployed in high-bandwidth regions. 
+While the BeagleBone Black's sleek and small form factor make it easy
+for deployment, the software stack is portable enough that it can 
+easily be run on any Linux computer.
+
+
+ 
