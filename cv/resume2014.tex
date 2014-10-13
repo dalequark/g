@@ -33,14 +33,17 @@
 \usepackage{geometry}
 	\textheight=700px                    % Saving trees ;-)
 \usepackage{url}
-
+\usepackage[document]{ragged2e}
 \frenchspacing              % Better looking spacings after periods
 \pagestyle{empty}           % No pagenumbers/headers/footers
-
 %%% Custom sectioning (sectsty package)
 %%% ------------------------------------------------------------
 \usepackage{sectsty}
 
+\setlength{\topmargin}{-.6in}
+\addtolength{\textwidth}{1in}
+\addtolength{\hoffset}{-.5in}
+\addtolength{\textheight}{.3in}
 \sectionfont{%			            % Change font of \section command
 	\usefont{OT1}{phv}{b}{n}%		% bch-b-n: CharterBT-Bold font
 	\sectionrule{0pt}{0pt}{-5pt}{3pt}}
@@ -53,7 +56,7 @@
 
 \newcommand{\MyName}[1]{ % Name
 		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
-		\center \par \normalsize \normalfont}
+		\par \normalsize \normalfont}
 		
 \newcommand{\MySlogan}[1]{ % Slogan (optional)
 		\large \usefont{OT1}{phv}{m}{n}\hfill \textit{#1}
@@ -97,11 +100,8 @@
 %	\vspace*{-2em}
 %		\includegraphics[width=0.15\textwidth]{photo}
 %\end{wrapfigure}
-\begin{center}
-\MyName{Dale Markowitz}
-(973) 634-5122\\
-\url{damarkow@princeton.edu}
-\end{center}
+\MyName{\begin{center} Dale Markowitz \end{center}} 
+\begin{center} \url{damarkow@princeton.edu}\\\vspace{5pt}973 634 5122 \end{center}
 
 \sepspace
 
@@ -116,11 +116,12 @@
 	Relevant Coursework: Artificial Intelligence, Operating Systems, Graph Theory, Reasoning about Computation, Algorithms and Data Structures, HCI Technology, Circuit Design
 }
 \sepspace
-\EducationEntry{University College London}{Fall 2013}{Fall Semester Study Abroad}{
-	Relevant Coursework:
-	Distributed Systems and Security, Networked Systems
-}
-\sepspace
+%
+%\EducationEntry{University College London}{Fall 2013}{Fall Semester Study Abroad}{
+%	Relevant Coursework:
+%	Distributed Systems and Security, Networked Systems
+%}
+%\sepspace
 
 
 %%% Work experience
@@ -131,22 +132,26 @@
 %%%\sepspace
 
 \WorkEntry{A Brain-Computer Interface for Sustained Visual Attention}{2014-2015}{Senior Thesis with Kenneth Norman}{
-	 Using an wireless EEG headset, designed an system for online analysis of 
+	 Using an wireless EEG headset, designed a system for online analysis of EEG data to measure sustained attention
+during a face/place feature recognition task. Using a classifier trained on this data, provided real-time 
+neurofeedback to improve attention.  
 }
 \sepspace
 
 \WorkEntry{BeagleCache}{Fall 2013, Summer 2014}{Fall/Summer Independent Work with Vivek Pai}{
-	In order to increase bandwidth in developing world countries, created a network accelerator platform for the Beaglebone Black, a credit-card-sized Linux computer.  Implemented HTTP caching as well as compressed HTTP data exchange between high and low bandwidth BeagleCache devices.
+	In order to provide faster Internet access in developing world countries, created a network accelerator platform for the Beaglebone Black, a credit-card-sized Linux computer.  Implemented HTTP caching as well as compressed HTTP data exchange between high and low bandwidth BeagleCache devices (built in C and Node.js), creating a mesh of network-accelerator nodes.
 }
 \sepspace
 
 \WorkEntry{SRON: A Software-Defined Overlay Network}{Spring 2014}{Spring Independent Work with Jennifer Rexford}{
-	Designed SRON, a dymanic SDN networking software written in Pyretic, in an attempt to allow Internet Service Providers better control
-	over the paths their data takes through interdomain boundaries by creating an virtual overlay network on top of the physical Internet backbone.
+	Using Pyretic, a high-level Software-Defined Networking controller 
+	platform, built a virtual overlay network.  This application, called SRON, allows Internet Service Providers to better control
+	which paths their data takes across interdomain boundaries by providing
+	an abstracted virtual network over the physical Internet backbone.
 }
 \sepspace
 
-\WorkEntry{Floored Inc}{Summer 2013}{Hardware Engineering Intern}{
+\WorkEntry{Floored Inc}{Summer 2013}{Engineering Intern}{
 	Built a high-resolution 3D scanner for reconstructing/modeling interior spaces using a precision laser rangefinder and DSLR camera mounted atop a rotating platform.
 }
 \sepspace
@@ -159,7 +164,7 @@
 \NewPart{Extracurricular Activities}{}
 
 \WorkEntry{Princeton Makers Collective}{2013-2015}{Programs Organizer}{
-	Organized programs and events for the Princeton hacking and making group on campus.  Brought in speakers from the hackspace NYC Resistor and the 3D printing company Shapeways to give presentations.  Organized and taught a class on 3D modeling with OpenScad and Inkscape.  Facilitated a collaboration between the Architecture Department and Makers Collective (access to supplies, organized beginners electronics classes).
+	Organized programs and events for the Princeton hacking and making group on campus.  Brought in speakers from the hackspace NYC Resistor and the 3D printing company Shapeways to give presentations.  Organized and taught a class on 3D modeling with OpenScad and Inkscape.
 }
 \sepspace
 
@@ -192,7 +197,7 @@
 %%% ------------------------------------------------------------
 \NewPart{Publications/Presentations}{}
 
-\WorkEntry{BeagleCache: A Low-Cost, eMMC-Based Caching Proxy for the Developing World}{2014}{Carnegie Mellon Undergraduate Conference in Information Systems}{
+\WorkEntry{BeagleCache: A Caching Proxy for the Developing World}{2014}{Carnegie Mellon Undergraduate Conference in Information Systems}{
 	Publication and presentation won ``Most Promising Research''.
 }
 \sepspace
@@ -207,21 +212,14 @@
 %%% ------------------------------------------------------------
 \NewPart{Skills}
 \SkillsEntry{Software}{Linux (Arch, Ubuntu, Debian, Fedora)}
-\SkillsEntry{}{Python}
-\SkillsEntry{}{C}
-\SkillsEntry{}{Javascript/Node}
-\SkillsEntry{}{Java}
-\sepspace
+\SkillsEntry{}{Python, C, Javascript/Node, Java}
+%\sepspace
 
 
-\SkillsEntry{Electronics}{Eagle (Circuit Design)}
-\SkillsEntry{}{Arduino}
-\SkillsEntry{}{Soldering}
-\sepspace
+\SkillsEntry{Electronics}{Eagle (Circuit Design), Arduino, Soldering}
+%\sepspace
 
-\SkillsEntry{Design}{OpenScad (Parametric 3D modeling)}
-\SkillsEntry{}{Photoshop}
-\SkillsEntry{}{Inkscape}
+\SkillsEntry{Design}{OpenScad (Parametric 3D modeling), Photoshop, Inkscape}
 
 
 \end{document}

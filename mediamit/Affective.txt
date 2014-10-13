@@ -1,0 +1,24 @@
+- Use affective measurements to broker interaction between
+two individuals, potentially one with asberger's, to give
+the participant feedback as to how they're doing, maybe on 
+Google Glass.
+
+- Could be Google glass face recognition
+- Could be GSR on other participant's wrist
+- Could be posture meter (self and other)
+- Heart-rate
+
+
+- Very similar to BioGlass
+----
+
+- Make a Skype-like device that allows others to feel like 
+they're together.
+
+- Mini-projector projects their desk, camera on yours
+- Allow other participant to turn on your camera
+
+----
+
+- Make a robot a good conversationalist
+

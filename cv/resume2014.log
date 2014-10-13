@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  24 SEP 2014 12:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  28 SEP 2014 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,32 +299,71 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+
+LaTeX Warning: Command \@arrayparboxrestore  has changed.
+               Check if current package is valid.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/footmisc/footmisc.sty
+Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
+\FN@temptoken=\toks33
+\footnotemargin=\dimen124
+\c@pp@next@reset=\count108
+Package footmisc Info: Declaring symbol style bringhurst on input line 855.
+Package footmisc Info: Declaring symbol style chicago on input line 863.
+Package footmisc Info: Declaring symbol style wiley on input line 872.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 883.
+
+Package footmisc Info: Declaring symbol style lamport* on input line 903.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
+.
+)
+\CenteringLeftskip=\skip54
+\RaggedLeftLeftskip=\skip55
+\RaggedRightLeftskip=\skip56
+\CenteringRightskip=\skip57
+\RaggedLeftRightskip=\skip58
+\RaggedRightRightskip=\skip59
+\CenteringParfillskip=\skip60
+\RaggedLeftParfillskip=\skip61
+\RaggedRightParfillskip=\skip62
+\JustifyingParfillskip=\skip63
+\CenteringParindent=\skip64
+\RaggedLeftParindent=\skip65
+\RaggedRightParindent=\skip66
+\JustifyingParindent=\skip67
+)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
 )
-\spacebox=\skip54
+\spacebox=\skip68
 
 (./resume2014.aux)
 \openout1 = `resume2014.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/ucs/ucsencs.def
 File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 )
-LaTeX Info: Redefining \microtypecontext on input line 94.
+LaTeX Info: Redefining \microtypecontext on input line 97.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -341,17 +380,17 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 )
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count108
-\scratchdimen=\dimen124
+\scratchcounter=\count109
+\scratchdimen=\dimen125
 \scratchbox=\box29
-\nofMPsegments=\count109
-\nofMParguments=\count110
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count111
-\MPscratchDim=\dimen125
-\MPnumerator=\count112
-\makeMPintoPDFobject=\count113
-\everyMPtoPDFconversion=\toks34
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks34
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen126
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks35
 ) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -408,11 +447,11 @@ e
 * v-part:(T,H,B)=(101.40665pt, 591.53027pt, 152.11002pt)
 * \paperwidth=597.50793pt
 * \paperheight=845.04694pt
-* \textwidth=418.25372pt
-* \textheight=702.62756pt
+* \textwidth=490.52371pt
+* \textheight=724.30878pt
 * \oddsidemargin=17.35712pt
 * \evensidemargin=17.35712pt
-* \topmargin=-8.26335pt
+* \topmargin=-43.36243pt
 * \headheight=17.0pt
 * \headsep=20.40001pt
 * \topskip=11.0pt
@@ -421,7 +460,7 @@ e
 * \marginparsep=12.8401pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
+* \hoffset=-36.135pt
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
@@ -430,7 +469,11 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 101.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 97.
+ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 97.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 103.
+
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
@@ -443,7 +486,7 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Try loading font information for U+msa on input line 103.
+LaTeX Font Info:    Try loading font information for U+msa on input line 104.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -451,7 +494,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 103.
+LaTeX Font Info:    Try loading font information for U+msb on input line 104.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -463,29 +506,40 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [1
 
-{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+Overfull \hbox (0.10178pt too wide) in paragraph at lines 117--117
+[]\OT1/cmr/m/n/10 (+4) Relevant Coursework: Artificial Intelligence, Operating 
+Systems, Graph Theory, Reasoning about Computation, 
+ []
 
-(./resume2014.aux) ) 
+
+Overfull \hbox (0.18495pt too wide) in paragraph at lines 151--151
+\OT1/cmr/m/n/10 (+8) work. This ap-pli-ca-tion, called SRON, al-lows In-ter-net
+ Ser-vice Providers to bet-ter con-trol which paths their 
+ []
+
+[1
+
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2] (./resume2014.aux) ) 
 Here is how much of TeX's memory you used:
- 6931 strings out of 493315
- 105397 string characters out of 6137904
- 256684 words of memory out of 5000000
- 10217 multiletter control sequences out of 15000+600000
- 15091 words of font info for 61 fonts, out of 8000000 for 9000
+ 7108 strings out of 493315
+ 108788 string characters out of 6137904
+ 259846 words of memory out of 5000000
+ 10393 multiletter control sequences out of 15000+600000
+ 14836 words of font info for 56 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 47i,6n,39p,438b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r
-.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.
-pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pf
-b></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-</usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
-Output written on resume2014.pdf (3 pages, 85428 bytes).
+ 47i,5n,39p,382b,317s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc}</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10
+.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
+pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb>
+Output written on resume2014.pdf (2 pages, 84454 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11777 words of extra memory for PDF output out of 12000 (max. 10000000)
 
